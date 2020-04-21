@@ -261,7 +261,6 @@ export default {
           }
         }
       }
-      console.log(this.countryMost);
     },
     showCases() {
       this.showC = !this.showC;

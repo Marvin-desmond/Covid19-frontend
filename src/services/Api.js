@@ -2,6 +2,6 @@ import axios from 'axios'
 
 export default () => {
  return axios.create({
-    baseURL:'http://localhost:3030'
+    baseURL:'https://cv19-backend.herokuapp.com/'
  })
 }
